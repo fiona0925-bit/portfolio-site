@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>个人作品集</title>
+    <meta
+      name="description"
+      content="极简风格个人作品集网站，展示个人简介与项目。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a class="brand" href="#top">Portfolio</a>
+        <nav class="nav" aria-label="主导航">
+          <a href="#projects">Projects</a>
+          <a href="#about">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero section reveal" id="hero">
+        <div class="container">
+          <p class="hero-eyebrow">Independent Designer Developer</p>
+          <h1>你的名字</h1>
+          <p class="hero-intro">用简洁和细节，创造清晰、有温度的数字体验。</p>
+          <div class="hero-actions">
+            <a class="hero-link" href="#projects">查看项目</a>
+            <p class="hero-note">Based in Shanghai / Available for freelance</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects section reveal">
+        <div class="container">
+          <div class="section-head">
+            <h2>Selected Projects</h2>
+            <p>2023 - 2026</p>
+          </div>
+          <ul class="project-list">
+            <li class="project-item">
+              <p class="project-meta">Brand Website / UX UI</p>
+              <h3>项目一 / Project One</h3>
+              <p>一个关于品牌官网改版的项目，占位描述，强调视觉系统与转化路径。</p>
+              <a href="#" aria-label="查看项目一详情">View Case</a>
+            </li>
+            <li class="project-item">
+              <p class="project-meta">Mobile Product / Interaction</p>
+              <h3>项目二 / Project Two</h3>
+              <p>一个移动端交互优化项目，占位描述，聚焦信息层级与关键流程提效。</p>
+              <a href="#" aria-label="查看项目二详情">View Case</a>
+            </li>
+            <li class="project-item">
+              <p class="project-meta">Data Narrative / Visual Design</p>
+              <h3>项目三 / Project Three</h3>
+              <p>一个数据可视化实验项目，占位描述，以叙事节奏强化信息传达。</p>
+              <a href="#" aria-label="查看项目三详情">View Case</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about" class="about section reveal">
+        <div class="container">
+          <div class="section-head">
+            <h2>About</h2>
+            <p>Profile</p>
+          </div>
+          <div class="about-grid">
+            <p>
+              你好，我专注于视觉与交互之间的平衡，擅长通过结构化思考把复杂问题转化为简单、直观的体验。
+              我的工作方法是从内容和用户动机出发，逐步建立清晰的信息与视觉秩序。
+            </p>
+            <ul class="about-list">
+              <li><span>Focus</span><span>Brand, Product, Web</span></li>
+              <li><span>Tools</span><span>Figma, Framer, Web</span></li>
+              <li><span>Email</span><span>hello@yourname.com</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> 你的名字</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
